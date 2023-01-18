@@ -1,7 +1,10 @@
 @import "reset";
 @import "variables";
+@import "header";
+@import "buttons";
 @import "navbar";
-
+@import "main";
+@import "footer";
 body {
   background-color: $main-theme;
 }

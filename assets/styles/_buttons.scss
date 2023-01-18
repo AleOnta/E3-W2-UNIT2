@@ -1,0 +1,22 @@
+header {
+  button {
+    width: 20%;
+    margin: 0 $content-margin;
+    padding: $item-padding;
+    color: $high-contrast;
+    border-radius: $button-radius;
+    background-color: $main-theme;
+    transition: 0.3s;
+    font: {
+      family: $font-Roboto-Mono;
+      size: 1.5em;
+      weight: 700;
+    }
+    &:hover {
+      transform: scale(1.1);
+      color: $low-contrast;
+      background-color: $arcade-orange;
+      transition: 0.3s;
+    }
+  }
+}
